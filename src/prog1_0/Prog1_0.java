@@ -10,6 +10,6 @@ System.out.println("Introduce el radio de la esfera");
 radio=leerradio.nextInt();
  
 double longitud;
-longitud = 2 * (Math.PI)* radio;
+longitud = 2 * (Math.PI)* radio; 
 }
 }
