@@ -10,12 +10,13 @@ public class EjemploGit {
 	System.out.print("Introduce segundo número: ");
 	numero2 = sc.nextInt();
 	
-	resultado = suma(numero1, numero2);
-	System.out.println("Suma: " + resultado);
+	resultado = resta(numero1, numero2);
+	System.out.println("resta: " + resultado);
 	}
-	public static int suma(int a, int b) {
+	public static int resta(int a, int b) {
 		int c;
-		c = a + b;
-		return c; 
-		} 
+		c = a - b;
+		return c;
+		}
+
 	}
